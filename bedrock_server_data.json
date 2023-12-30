@@ -1,0 +1,82 @@
+{
+    "1.20.15": {
+        "windows": {
+            "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.15.01.zip",
+            "sha256": "b127c4e1bb81f18a47fe94f09c0940264b8a11e7fa8906a20ef16f53948e9111"
+        },
+        "linux": {
+            "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.15.01.zip",
+            "sha256": "24cd3c4706bd1d041ed7a61264fd808a758346d69f347a163b6daad1877d17c1"
+        }
+    },
+    "1.20.30": {
+        "windows": {
+            "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.30.02.zip",
+            "sha256": "249e590670ae92cec9f812967040df7d583bd0bc047de71de9a96e726f213773"
+        },
+        "linux": {
+            "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.30.02.zip",
+            "sha256": "2ee881aad41973c47059d3004baf4727ab0e8e0883feceb00d7ce6c5be3ed6b8"
+        }
+    },
+    "1.20.31": {
+        "windows": {
+            "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.31.01.zip",
+            "sha256": "bd94245ee0ec17442bd25b052103e96b9fffff901a3d31abfde99b81f7b35f13"
+        },
+        "linux": {
+            "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.31.01.zip",
+            "sha256": "6e49166e42378bce73927c3d4096e824dad021d73620d202a1021f6fb81c9d46"
+        }
+    },
+    "1.20.32": {
+        "windows": {
+            "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.32.03.zip",
+            "sha256": "2f58c4cb83e19ac43800c38d7c5c5e8850308b69c25f41f9c54043b28ebe8f88"
+        },
+        "linux": {
+            "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.32.03.zip",
+            "sha256": "d3bc0705309f97f6015291a1b7bf63a029391287cfa736d9803a9a7b665d55b7"
+        }
+    },
+    "1.20.40": {
+        "windows": {
+            "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.40.01.zip",
+            "sha256": "165c5539acf38458e231a57633b2f3af49ebe3df5ffdf4dd6b39f3b7f64a2180"
+        },
+        "linux": {
+            "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.40.01.zip",
+            "sha256": "ae3158801ba959e67652c7785b781217e5a2056dfae9aa41abcae938ced929f6"
+        }
+    },
+    "1.20.41": {
+        "windows": {
+            "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.41.02.zip",
+            "sha256": "d2b9e05fba745aa7d9fb1d6be546e4da6875ca6ad460ae09f35f4dbcf3e528c4"
+        },
+        "linux": {
+            "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.41.02.zip",
+            "sha256": "575fea991a10a9c6e4b906458d6ea577f009494910c468b979b8ac4efef849c3"
+        }
+    },
+    "1.20.50": {
+        "windows": {
+            "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.50.03.zip",
+            "sha256": "4eedaf370a0015809c5d14f151d8729db91eba941df1d030d4f2d7ce21212831"
+        },
+        "linux": {
+            "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.50.03.zip",
+            "sha256": "32e0a3ae0388cd6756649b207052688b803937b9ef8a3eda3c6d6b362565f332"
+        }
+    },
+    "1.20.51": {
+        "windows": {
+            "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.51.01.zip",
+            "sha256": "d5620d1d8d5d390b3eff18444c055f9dec92d37b580072e430dfa8b356732ddd"
+        },
+        "linux": {
+            "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.51.01.zip",
+            "sha256": "c7d5b21452d90b1b782ae0597bb3ac0dbb0c6dfcb0a58a14a02c3018d67d7a90"
+        }
+    }
+}
