@@ -6,8 +6,9 @@ on:
     - cron: '0 0 * * *'  # Run daily
 
 jobs:
-  check_update:
+  update:
     runs-on: ubuntu-latest
+    name: Update
 
     permissions:
       contents: write
