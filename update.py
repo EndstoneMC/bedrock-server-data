@@ -55,19 +55,19 @@ def load_data():
     if DATAFILE_PATH.exists():
         with DATAFILE_PATH.open(mode="r") as f:
             return json.load(f)
-    return {}
+    return {"binary": {}}
 
 
 def save_data(data):
     DATAFILE_PATH.parent.mkdir(parents=True, exist_ok=True)
     with DATAFILE_PATH.open(mode="w") as f:
-        json.dump(data, f, indent=4)
+        json.dump(data, f, indent=2)
 
 
 def update_data(version, windows_url, linux_url, windows_sha256, linux_sha256):
     data = load_data()
 
-    data[version] = {
+    data["binary"][version] = {
         "windows": {
             "url": windows_url,
             "sha256": windows_sha256,
