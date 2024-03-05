@@ -92,12 +92,12 @@
     },
     "1.20.62": {
       "windows": {
-        "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.62.02.zip",
-        "sha256": "783b998f15d88fcb7d46d5fecc8416d125c671fbb766c1f1e32d4e7a2225b857"
+        "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.62.03.zip",
+        "sha256": "5d06dcc6d283f282ed964e61304554d94e3c8186e5060f620fe0b112688d1957"
       },
       "linux": {
-        "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.62.02.zip",
-        "sha256": "f9cf67e157e9cb367bc4d04438c9be40bd3a09a51a91c403a0d135a75e30ee3f"
+        "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.62.03.zip",
+        "sha256": "280c4e553f32e9c6414c1a5463de2320b06b7ea74a237cf7989699103a0faad7"
       }
     }
   }
