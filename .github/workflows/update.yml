@@ -3,7 +3,7 @@ name: Update Bedrock Server Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # Run daily
+    - cron: '30 18 * * *'  # Run daily
 
 jobs:
   update:
