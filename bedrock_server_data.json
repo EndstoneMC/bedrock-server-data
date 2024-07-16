@@ -179,6 +179,16 @@
         "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.21.2.02.zip",
         "sha256": "d7e3c2aa42de49e647d3be3b4d0d245c1bee5f5d1e26db3fcaa6f73e05603ec6"
       }
+    },
+    "1.21.3": {
+      "windows": {
+        "url": "https://minecraft.azureedge.net/bin-win/bedrock-server-1.21.3.01.zip",
+        "sha256": "92a0482c83519ff4f496f9f288fdc315c643d2027e3e709844287975abfaf18d"
+      },
+      "linux": {
+        "url": "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.21.3.01.zip",
+        "sha256": "eb1ce77d53b883e2028158b1c0ced1aeb9a854c9459db205c160edd6461fbe73"
+      }
     }
   }
 }
