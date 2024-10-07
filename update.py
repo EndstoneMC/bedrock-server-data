@@ -12,15 +12,13 @@ from tqdm import tqdm
 
 URL = "https://www.minecraft.net/en-us/download/server/bedrock"
 DATAFILE_PATH = Path("bedrock_server_data.json")
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0"
+}
 
 
 def get_download_urls():
-    response = requests.get(
-        URL,
-        headers={
-            "User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 12871.102.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.141 Safari/537.36"
-        },
-    )
+    response = requests.get(URL, headers=HEADERS)
     soup = BeautifulSoup(response.content, "html.parser")
 
     windows_link = soup.find("a", {"data-platform": "serverBedrockWindows"}).get("href")
@@ -30,7 +28,8 @@ def get_download_urls():
 
 
 def download_file(url, filename):
-    response = requests.get(url, stream=True, allow_redirects=True)
+    logging.info(f"Downloading from {url} to {filename}")
+    response = requests.get(url, stream=True, allow_redirects=True, headers=HEADERS)
     total_size_in_bytes = int(response.headers.get("content-length", 0))
     block_size = 8192
 
@@ -108,8 +107,8 @@ def main():
         return
 
     with TemporaryDirectory() as tmp:
-        windows_filename = Path(tmp, "windows_server.zip")
-        linux_filename = Path(tmp, "linux_server.zip")
+        windows_filename = Path(tmp, "bedrock_server_win.zip")
+        linux_filename = Path(tmp, "bedrock_server_linux.zip")
 
         logging.info(f"Processing Bedrock Server for Windows v{version}...")
         download_file(windows_url, windows_filename)

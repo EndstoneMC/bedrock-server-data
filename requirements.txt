@@ -1,4 +1,4 @@
-requests
 beautifulsoup4
-tqdm
 packaging
+requests
+tqdm
