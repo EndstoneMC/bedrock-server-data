@@ -289,16 +289,6 @@
         "url": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.44.01.zip",
         "sha256": "2dc1fe943939557cde2919d2b180ec938671c10fce9efaa68bfd03cd29e97af0"
       }
-    },
-    "1.21.50": {
-      "windows": {
-        "url": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.50.07.zip",
-        "sha256": "4c19c30e642cd0f87f62639c8fc8ae4e5a3666c5e7a8abb7799763097ee17d46"
-      },
-      "linux": {
-        "url": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.44.01.zip",
-        "sha256": "2dc1fe943939557cde2919d2b180ec938671c10fce9efaa68bfd03cd29e97af0"
-      }
     }
   }
 }
