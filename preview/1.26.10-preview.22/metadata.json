@@ -4,6 +4,10 @@
     "windows": {
       "url": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.10.22.zip",
       "sha256": "bb95d93c91dd1e36b86be28ce74f644e236f46f88bc27ee5a9303a522d158b21"
+    },
+    "linux": {
+      "url": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.10.22.zip",
+      "sha256": "bb95d93c91dd1e36b86be28ce74f644e236f46f88bc27ee5a9303a522d158b21"
     }
   }
 }
